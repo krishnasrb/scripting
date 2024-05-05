@@ -1,0 +1,8 @@
+##############################################################
+sed 
+ sed 's/unix/linux' sedtest      -------> 
+ sed 's/linux/unix/g' sedtest    ------->
+ sed -i 's/unix/linux/' sedtest  ------->
+ sed -i 's/unix/linux/g' sedtest ------->
+ sed '2 s/unix/linux/g' sedtest  ------->
+ sed '3,$s/unix/linux/g' sedtest ------->
